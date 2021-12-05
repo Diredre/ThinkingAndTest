@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--标题栏-->
+    <com.example.thinkingandtest.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/lp_btn_creatDatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Creat Database"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/lp_btn_addData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add Data"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/lp_btn_updateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Update Data"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/lp_btn_deleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Delete Data"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/lp_btn_searchData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Search Data"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/lp_btn_jmp720yun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Jump to 720yun"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

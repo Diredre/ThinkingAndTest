@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--标题栏-->
+    <com.example.thinkingandtest.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/main_btn_toMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="JMP message"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/main_btn_toBroadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="JMP broadcast-receiver"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/main_btn_toLitePal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="JMP LitePal"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/main_btn_toContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="JMP Contact"
+        android:textAllCaps="false"/>
+
+    <!--瀑布流-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_relv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
